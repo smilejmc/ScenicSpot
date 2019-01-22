@@ -1,0 +1,65 @@
+/* pages/ticket/ticket.wxss */
+
+.ticket-item {
+  height: 90px;
+  padding: 8px;
+  border-bottom: 1px solid #CCC;
+}
+
+.thumbnail {
+  width: 25%;
+  height: 90px; 
+  background: #CCC;
+}
+
+.info {
+  width: 50%;
+  height: 90px;
+  padding: 0 8px;
+}
+
+.info-title {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.info-tips {
+  height: 42px;
+  font-size: 14px;
+  color: #888;
+}
+
+.info-know {
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  color: rgb(7, 185, 255);
+  border: 1px solid rgb(7, 185, 255);
+  border-radius: 3px;
+  width: 55px;
+  text-align: center;
+}
+
+.ops {
+  padding: 20px 0;
+  width: 25%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price {
+  color: rgb(255, 166, 0);
+}
+
+.buy {
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+  background: rgb(255, 166, 0);
+  border: 1px solid rgb(255, 166, 0);
+  border-radius: 5px;
+  width: 56px;
+  text-align: center;
+}
