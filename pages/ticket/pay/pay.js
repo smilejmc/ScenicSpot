@@ -1,22 +1,18 @@
-// pages/ticket/ticket.js
+// pages/ticket/pay/pay.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    items: [
+    types: [
       {
         "id": 1,
-        "title": "全国通用卷",
-        "tips": "可用于观赏乐园内所有花卉园区",
-        "price": 100
+        "name": '随买随用'
       },
       {
         "id": 2,
-        "title": "全国通用卷",
-        "tips": "这是标题二",
-        "price": 60
+        "name": '保障入园'
       }
     ]
   },

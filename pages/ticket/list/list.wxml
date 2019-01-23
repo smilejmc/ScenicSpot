@@ -1,8 +1,7 @@
 <!--pages/ticket/ticket.wxml-->
-<view wx:for="{{items}}" wx:for-index="index" wx:for-item="item" wx:key="id">
-  
-  <view class='ticket-item' style="flex-direction:row; display: flex;">
-    <image class='thumbnail' mode='aspectFill' src='../../image/default.png'></image>
+<view class='container'style='padding:8px 0px;'>
+  <view class='ticket-item' wx:for="{{items}}" wx:for-index="index" wx:for-item="item" wx:key="id">
+    <image class='thumbnail' mode='aspectFill' src='../../../image/default.png'></image>
     <view class='info'>
       <view class='info-title'>{{item.title}}</view>
       <view class='info-tips'>{{item.tips}}</view>

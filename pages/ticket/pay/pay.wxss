@@ -1,0 +1,38 @@
+/* pages/ticket/pay/pay.wxss */
+.wrap {
+  padding: 8px;
+}
+
+.top-wrap {
+  border-bottom: 1px solid #CCC;
+}
+
+.flex-wrp-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.tips {
+  margin: 5px 0 8px 0;
+  height:12px;
+}
+ 
+.types {
+   flex: 1; /* 重要 */
+   align-items:center;
+}
+ 
+.know {
+  font-size:12px;
+  color:rgb(7, 185, 255);
+  margin: 0 5px;
+}
+
+.type-item {
+  margin-right: 5px;
+}
+
+.fz12 {
+  line-height: 12px;
+  font-size: 12px;
+}

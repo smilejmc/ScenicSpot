@@ -2,8 +2,10 @@
 
 .ticket-item {
   height: 90px;
-  padding: 8px;
+  padding: 8px 20px;
   border-bottom: 1px solid #CCC;
+  width: 95%;
+  flex-direction:row; display: flex;
 }
 
 .thumbnail {
@@ -13,7 +15,7 @@
 }
 
 .info {
-  width: 50%;
+  width: 55%;
   height: 90px;
   padding: 0 8px;
 }
@@ -41,8 +43,8 @@
 }
 
 .ops {
-  padding: 20px 0;
-  width: 25%;
+  padding: 20px 0px;
+  width: 20%;
   height: 50px;
   display: flex;
   flex-direction: column;
@@ -60,6 +62,6 @@
   background: rgb(255, 166, 0);
   border: 1px solid rgb(255, 166, 0);
   border-radius: 5px;
-  width: 56px;
+  width: 100%;
   text-align: center;
 }
