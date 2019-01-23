@@ -1,0 +1,25 @@
+<view class='box'>
+  <view>
+    <image src='../../image/vipbg.png' style=" height: 150px;"></image>
+  </view>
+  <view class='word' style='flex-direction:row;'>
+    <view class='flex-item'>余额 <view class='balance' style='color: orange;'>326.00元</view>
+    </view>
+    <view class='flex-item'>积分 <view class='integral' style='color: orange'>100</view>
+    </view>
+    <view class='flex-item'>优惠卷 <view class='coupon' style='color: orange'>查看</view>
+    </view>
+  </view>
+  <view>
+    <view><image src='../../image/flower.png' style=" height: 150px;" style='width:20px;height:20px;'></image>花卉商城</view>
+    <view><image src='../../image/dirtion.png' style=" height: 150px;" style='width:20px;height:20px;'></image>景区导航</view>
+    <view><image src='../../image/wifi.png' style=" height: 150px;" style='width:20px;height:20px;'></image>一键WIFI</view>
+    <view><image src='../../image/activity.png' style=" height: 150px;" style='width:20px;height:20px;'></image>活动中心</view>
+    <view><image src='../../image/car.png' style=" height: 150px;" style='width:20px;height:20px;'></image>停车缴费</view>
+    <view><image src='../../image/pay.png' style=" height: 150px;" style='width:20px;height:20px;'></image>支付设置</view>
+    <view><image src='../../image/record.png' style=" height: 150px;" style='width:20px;height:20px;'></image>交易记录</view>
+    <view>意见反馈</view>
+    </view>
+</view>
+
+

@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/ticket/list/list",
-    "pages/ticket/pay/pay"
+    "pages/ticket/pay/pay",
+    "pages/vip/vipCenter"
   ],
   "window": {
     "backgroundTextStyle": "light",

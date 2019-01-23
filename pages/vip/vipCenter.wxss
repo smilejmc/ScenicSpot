@@ -1,0 +1,28 @@
+page {
+  background: #F6F6F6;
+}
+
+.word{
+  background: white;
+  display:flex;
+  margin-top: -2px;
+}
+
+.flex-item{
+  width: 200rpx;
+  height: 120rpx;
+  margin: 0px 25px 2px;
+  margin-top: 5px;
+}
+
+.balance{
+  margin-left: -15px;
+  margin-top: 3px;
+}
+.integral{
+  margin-top: 3px;
+}
+.coupon{
+  margin-left: 8px;
+  margin-top: 3px;
+}
