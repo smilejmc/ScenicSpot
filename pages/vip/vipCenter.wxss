@@ -26,3 +26,65 @@ page {
   margin-left: 8px;
   margin-top: 3px;
 }
+
+.body{
+  position: relative;
+  top: 0px;
+}
+
+.b1{
+  background: white;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 10px;
+}
+.b2{
+  background: white;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 42px;
+}
+.b3{
+  background: white;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 74px;
+}
+.b4{
+  background: white;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 106px;
+}
+.b5{
+  background: white;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 138px;
+}
+.b6{
+  background: white;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 170px;
+}
+.b7{
+  background: white;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 202px;
+}
+.b8{
+  background: white;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 245px;
+}
