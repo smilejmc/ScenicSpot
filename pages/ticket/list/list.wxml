@@ -1,7 +1,7 @@
 <!--pages/ticket/ticket.wxml-->
 <view class='container'style='padding:8px 0px;'>
   <view class='ticket-item' wx:for="{{items}}" wx:for-index="index" wx:for-item="item" wx:key="id">
-    <image class='thumbnail' mode='aspectFill' src='../../../image/default.png'></image>
+    <image class='thumbnail' mode='aspectFill' src='{{item.src}}'></image>
     <view class='info'>
       <view class='info-title'>{{item.title}}</view>
       <view class='info-tips'>{{item.tips}}</view>
@@ -9,7 +9,7 @@
     </view>
     <view class='ops'>
       <text class='price'>￥{{item.price}}</text>
-      <view class='buy'>购票</view>
+      <view class='buy'><navigator url="/pages/ticket/pay/pay?spotid={{item.id}}&title={{item.title}}&price={{item.price}}">购票</navigator></view>
     </view>
   </view>
 </view>
