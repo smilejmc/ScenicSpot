@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "停车场",
+  "usingComponents": {
+    "Select": "/pages/park/select/select"
+  }
+}

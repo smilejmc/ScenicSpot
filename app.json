@@ -4,7 +4,9 @@
     "pages/logs/logs",
     "pages/ticket/list/list",
     "pages/ticket/pay/pay",
-    "pages/vip/vipCenter"
+    "pages/vip/vipCenter",
+    "pages/park/park",
+    "pages/park/select/select"
   ],
   "window": {
     "backgroundTextStyle": "light",
