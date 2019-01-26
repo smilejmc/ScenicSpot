@@ -2,13 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/ticket/list/list",
-    "pages/ticket/pay/pay",
     "pages/vip/vipCenter",
     "pages/ticket/pages/list/list",
     "pages/ticket/pages/pay/pay",
     "pages/ticket/pages/success/success",
-    "pages/vip/vipCenter",
     "pages/park/park",
     "pages/park/select/select"
   ],
