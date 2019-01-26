@@ -1,0 +1,73 @@
+<!--pages/ticket/pay/pay.wxml-->
+<view class='wrap'>
+  <view class='top-wrap'>
+    <text class='title'>{{title}}</text>
+    <view class='flex-wrp-row tips'>
+      <view class='flex-left flex-wrp-row'>
+        <view class='type-item' wx:for="{{types}}" wx:for-index="index" wx:for-item="item" wx:key="id">
+          <image src='../../resources/image/icon-tick.png'></image>
+          <text>{{item.name}}</text>
+        </view>
+      </view>
+      <text class='know'>购买须知</text>
+    </view>
+    <view class='line'></view>
+  </view>
+ 
+  
+  <view class='center-wrap'>
+    <view class='date'>
+      <view class='date-title'>
+        <text class='small-title'>使用日期</text>
+        <text class='title-tips'>购买后可立即使用</text>
+      </view>
+      <view class='date-content flex-wrp-row'>
+        <view id='{{item.day}}' data-info='{{item.date}}' class='date-box date-item {{index == selected.day ? "selected" : ""}}' wx:for="{{dates}}" wx:for-index="index" wx:for-item="item" wx:key="id" bindtap='dateSelected'>
+          <view>{{item.info}}</view>
+          <view>{{item.date}}</view>
+        </view>
+        <view class='date-box more flex-wrp-row' style='width:19%; padding-right:0;'>
+          <view style='width:70%;'>
+            <view>更多</view>
+            <view>日期</view>
+          </view> 
+          <image src='../resources/image/icon-arrow.png'  style='width:30%; height: 20px; margin: 10px 0;'></image>
+        </view>
+      </view>  
+    </view>
+
+    <view class='num flex-wrp-row'>
+      <text class='small-title flex-left'>购买数量</text>
+      <view class='num-content flex-wrp-row'>
+        <view class='minus' bindtap='numOps' data-ops='minus'>-</view>
+        <view class='buy-num'>{{buyNum}}</view>
+        <view class='plus' bindtap='numOps' data-ops='plus'>+</view>
+      </view>
+    </view>
+
+    <view class='warning flex-wrp-row'>
+      <icon type='warn' size="15"></icon>
+      <text>仅{{selected.date}}当天有效</text>
+    </view>
+    
+  </view>
+
+  <view class='bottom-wrap'> 
+    <view class='vip-ops' hidden='{{!isVip}}'>
+      <view bindtap='toggleDiscount'>
+        <text>会员付款享9.5折优惠</text> 
+        <icon type="success" size="20" color="{{isDiscount ? '#FFA600' : '#CCC'}}"/>
+      </view>
+      <view bindtap='toggleUseScore'>
+        <text>可用200积分抵扣2元</text> 
+        <icon type="success" size="20" color="{{isUseScore ? '#FFA600' : '#CCC'}}"/>
+      </view>
+    </view>
+    <view class='buy-btn'>
+      <button>{{buyInfo}}</button>
+      <view class='flex-wrp-row pay-type-info'>
+        <text>会员付款,</text><navigator>更换</navigator>
+      </view>
+    </view>
+  </view>
+</view>

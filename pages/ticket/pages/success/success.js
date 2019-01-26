@@ -1,20 +1,11 @@
-// pages/ticket/pay/pay.js
+// pages/ticket/pages/success/success.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    types: [
-      {
-        "id": 1,
-        "name": '随买随用'
-      },
-      {
-        "id": 2,
-        "name": '保障入园'
-      }
-    ]
+
   },
 
   /**
