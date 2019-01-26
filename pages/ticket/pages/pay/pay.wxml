@@ -5,7 +5,7 @@
     <view class='flex-wrp-row tips'>
       <view class='flex-left flex-wrp-row'>
         <view class='type-item' wx:for="{{types}}" wx:for-index="index" wx:for-item="item" wx:key="id">
-          <image src='../resources/image/icon-tick.png'></image>
+          <image src='../../resources/image/icon-tick.png'></image>
           <text>{{item.name}}</text>
         </view>
       </view>
@@ -45,9 +45,9 @@
       </view>
     </view>
 
-    <view class='warning flex-wrp-row' style='background: #FFF;'>
-      <image src='../resources/image/warning.png' style='height:15px; width:15px; margin:5px;'></image>
-      <text style='line-height: 25px;'>仅{{selected.date}}当天有效</text>
+    <view class='warning flex-wrp-row'>
+      <icon type='warn' size="15"></icon>
+      <text>仅{{selected.date}}当天有效</text>
     </view>
     
   </view>

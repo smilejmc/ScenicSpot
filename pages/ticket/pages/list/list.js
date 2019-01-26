@@ -1,4 +1,4 @@
-// pages/ticket/list/list.js
+// pages/ticket/pages/list/list.js
 Page({
 
   /**
@@ -11,35 +11,35 @@ Page({
         "title": "全国通用卷",
         "tips": "可用于观赏乐园内所有花卉园区",
         "price": 100,
-        "src": "../resources/image/01.jpg"
+        "src": "../../resources/image/01.jpg"
       },
       {
         "id": 2,
         "title": "自选园区票",
         "tips": "可用于观赏购买的自选园区的花卉",
         "price": 42,
-        "src": "../resources/image/02.jpg"
+        "src": "../../resources/image/02.jpg"
       }, 
       {
         "id": 3,
         "title": "四季花卉园区",
         "tips": "可用于观赏四季花卉园区的花卉",
         "price": 26,
-        "src": "../resources/image/03.jpg"
+        "src": "../../resources/image/03.jpg"
       },
       {
         "id": 4,
         "title": "荷兰花卉园区",
         "tips": "可用于观赏荷兰花卉园区的花卉",
         "price": 40,
-        "src": "../resources/image/04.jpg"
+        "src": "../../resources/image/04.jpg"
       },
       {
         "id": 5,
         "title": "俄罗斯花卉园区",
         "tips": "可用于观赏俄罗斯花卉园区的花卉",
         "price": 32,
-        "src": "../resources/image/05.jpg"
+        "src": "../../resources/image/05.jpg"
       }
     ]
   },

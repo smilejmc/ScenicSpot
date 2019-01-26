@@ -1,4 +1,4 @@
-// pages/ticket/pay/pay.js
+// pages/ticket/pages/pay/pay.js
 Page({
 
   /**

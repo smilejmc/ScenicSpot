@@ -2,8 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/ticket/list/list",
-    "pages/ticket/pay/pay",
+    "pages/ticket/pages/list/list",
+    "pages/ticket/pages/pay/pay",
+    "pages/ticket/pages/success/success",
     "pages/vip/vipCenter"
   ],
   "window": {

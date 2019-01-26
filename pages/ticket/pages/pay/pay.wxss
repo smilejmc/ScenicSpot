@@ -181,3 +181,13 @@ page {
   justify-content: center;
   margin: 5px 0;
 }
+
+.warning {
+  background: #FFF; 
+  align-items: center;
+}
+
+.warning > text {
+  margin-left: 5px; 
+  line-height: 25px;
+}
