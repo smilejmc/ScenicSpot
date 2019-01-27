@@ -1,49 +1,35 @@
-
-.list-msg {
-    padding: 0 20rpx;
-    background-color: #fff;
-    position: relative;
-}
- 
-.list-msg1 {
-    height: 60rpx;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+page {
+  background: #F6F6F6;
 }
 
-.list-msg2 {
-    height: 60rpx;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #ccc;
+.inputcss {
+    height: 50px;
+    background: white;
+    border: 1px solid #e2e2e2;
     padding: 0 10rpx;
 }
- 
-.select_box {
-    background-color: #eee;
-    padding: 0 10rpx;
-    width: 93%;
-    position: absolute;
-    top: 130rpx;
-    z-index: 1;
-    overflow: hidden;
-    animation: myfirst 0.5s;
+
+.btncss {
+  margin: 40px 10px 0 10px;
+  color: white;
+  background-color: rgb(255, 166, 0);
 }
 
-@keyframes myfirst {
-    from {
-        height: 0rpx;
-    }
- 
-    to {
-        height: 210rpx;
-    }
+.history {
+  color: #888;
+  margin: 20px 0 10px 20px;
+  font-size: 12px;
 }
 
-.select_one {
-    height: 60rpx;
-    line-height: 60rpx;
-    border-bottom: 1px solid #ccc;
+.historybtn {
+  background-color: #ccc;
+  color: white;
+  border-radius: 2em;
+  height: 25px;
+  width: 90px;
+  font-size: 12px;
+  line-height: 25px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
 }

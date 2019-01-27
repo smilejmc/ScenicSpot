@@ -5,15 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    select: false,
-    tihuoWay: '门店自提',
     selectArray: [{
-      "id": "10",
-      "text": "会计类"
+      "id": "1",
+      "text": "粤A"
     }, {
-      "id": "21",
-      "text": "工程类"
-    }]
+      "id": "2",
+      "text": "粤B"
+      }, {
+        "id": "3",
+        "text": "粤C"
+      }]
   },
 
   /**
@@ -21,18 +22,6 @@ Page({
    */
   onLoad: function (options) {
 
-  },
-  bindShowMsg() {
-    this.setData({
-      select: !this.data.select
-    })
-  },
-  mySelect(e) {
-    var name = e.currentTarget.dataset.name
-    this.setData({
-      tihuoWay: name,
-      select: false
-    })
   },
 
 

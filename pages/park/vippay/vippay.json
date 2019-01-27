@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "车牌缴费",
+  "navigationBarTitleText": "停车缴费",
   "usingComponents": {
     "Select": "/pages/park/select/select"
   }
