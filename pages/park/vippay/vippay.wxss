@@ -1,0 +1,8 @@
+page {
+  background: #F6F6F6;
+}
+
+.inputcss {
+  background: white;
+  border: 1px solid #F6F6F6
+}

@@ -1,0 +1,10 @@
+
+<view>
+  <image src='../../../image/vipbg.png' style='height: 150px;'></image>
+</view>
+<view>
+  <input class='inputcss' type='text' value='停车场'></input>
+  <input class='inputcss' type='text' value='进入时间'></input>
+  <input class='inputcss' type='text' value='停车时长'></input>
+  <input class='inputcss' type='text' value='免费时长'></input>
+</view>

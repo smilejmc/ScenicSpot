@@ -7,7 +7,8 @@
     "pages/ticket/pages/pay/pay",
     "pages/ticket/pages/success/success",
     "pages/park/park",
-    "pages/park/select/select"
+    "pages/park/select/select",
+    "pages/park/vippay/vippay"
   ],
   "window": {
     "backgroundTextStyle": "light",
