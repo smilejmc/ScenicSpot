@@ -1,2 +1,7 @@
 <!--pages/ticket/pages/success/success.wxml-->
-<text>pages/ticket/pages/success/success.wxml</text>
+<view class='container'>
+  <icon type='success' size='50'></icon>
+  <text class='success-text'>购票成功</text>
+  <text>恭喜您购票成功，预祝您游玩愉快</text>
+  <button class='btn'>完成</button>
+</view>

@@ -1,1 +1,14 @@
 /* pages/ticket/pages/success/success.wxss */
+
+.success-text {
+  line-height: 50px; 
+  color: rgb(0, 202, 67);
+  font-weight: bold;
+}
+
+.btn {
+  color: #FFF;
+  background: rgb(255, 166, 0);
+  width: 90%;
+  margin-top: 80px;
+}
