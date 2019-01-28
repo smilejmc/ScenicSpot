@@ -136,12 +136,12 @@ page {
 
 .buy-btn {
   position: fixed;
-  bottom: 0;
-  width: 80%;
-  margin: 10%;
+  bottom: 10px;
+  width: 90%;
+  margin: 0 5%;
 }
 
-.buy-btn > button {
+.buy-btn button {
   color: #FFF;
   background: rgb(255, 166, 0);
 }
@@ -190,4 +190,6 @@ page {
 .warning > text {
   margin-left: 5px; 
   line-height: 25px;
+  font-size: 14px;
+  color: #555;
 }

@@ -31,7 +31,7 @@
             <view>更多</view>
             <view>日期</view>
           </view> 
-          <image src='../resources/image/icon-arrow.png'  style='width:30%; height: 20px; margin: 10px 0;'></image>
+          <image src='../../resources/image/icon-arrow.png'  style='width:30%; height: 20px; margin: 10px 0;'></image>
         </view>
       </view>  
     </view>
@@ -64,7 +64,7 @@
       </view>
     </view>
     <view class='buy-btn'>
-      <button>{{buyInfo}}</button>
+      <navigator url="../success/success" hover-class="none"><button class='btn'>{{buyInfo}}</button></navigator>
       <view class='flex-wrp-row pay-type-info'>
         <text>会员付款,</text><navigator>更换</navigator>
       </view>
