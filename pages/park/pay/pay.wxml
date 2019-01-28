@@ -1,0 +1,35 @@
+<!--pages/park/pay/pay.wxml-->
+<view>
+  <image src='../../../image/vipbg.png' style='height: 130px;'></image>
+</view>
+<view>
+  <view class='viewcss'>停车场
+    <view class='viewcss2'>荷兰花卉乐园</view>
+  </view>
+  <view class='viewcss'>进入时间
+    <view class='viewcss2'>2016-10-24 19:38</view>
+  </view>
+  <view class='viewcss'>停车时长
+    <view class='viewcss2'>3小时</view>
+  </view>
+</view>
+<view style='padding-top: 10px;'>
+  <view class='viewcss'>停车费用
+    <text style='color: blue;' bindtap=''>(vip收费标准?)</text>
+    <view class='viewcss2' style='color: rgb(255,166,0);'>￥30</view>
+  </view>
+</view>
+<view class='viewcss3'>
+  <text>注册电子会员，尊享折扣和积分优惠</text>
+  <view class='viewcss3-1'>
+    <text style='color: blue;' bindtap=''>立即注册</text>
+  </view>
+</view>
+<view>
+  <button class='btncss'>缴费离场30元</button>
+</view>
+<view class='viewcss4'>微信付款，<text style='color: blue;' bindtap=''>更换</text>
+</view>
+<view>
+  <button class='btncss2'>继续停放</button>
+</view>

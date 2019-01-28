@@ -1,0 +1,67 @@
+/* pages/park/pay/pay.wxss */
+page {
+  background: #F6F6F6;
+  font-size: 13px;
+}
+
+.viewcss {
+  background: white;
+  border: 1px solid #F6F6F6;
+  padding: 5px 10px;
+}
+
+.viewcss2 {
+  background: white;
+  float: right;
+  position: relative;
+}
+
+.viewcss3 {
+  padding: 5px 8px;
+  font-size: 10px;
+}
+
+.viewcss3-1 {
+  float: right;
+  position: relative;
+  font-size: 10px;
+}
+
+/*swtich样式-start*/
+/*swtich整体大小*/
+.wx-switch-input{
+width:82rpx !important;
+height:40rpx !important;
+margin:0 !important;
+padding: 0 !important;
+}
+/*白色样式（false的样式）*/
+.wx-switch-input::before{
+width:80rpx !important;
+height:36rpx !important;
+}
+/*绿色样式（true的样式）*/
+.wx-switch-input::after{
+width:38rpx !important;
+height:36rpx !important;
+}
+/*swtich样式end*/
+
+.btncss {
+  margin: 30px 10px 0 10px;
+  color: white;
+  background-color: rgb(255, 166, 0);
+  font-size: 13px;
+}
+
+.viewcss4 {
+  padding: 10px 30%;
+}
+
+.btncss2 {
+  margin: 10px 10px 30px 10px;
+  background: white;
+  color: rgb(255, 166, 0);
+  border: 1px solid rgb(255, 166, 0);
+  font-size: 13px;
+}
