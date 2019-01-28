@@ -132,11 +132,14 @@ Page({
   onLoad: function (options) {
     var d = this.data.dates;
     var now = new Date();
+    var s = "";
     d.forEach(function(item,index){
       item.date = "" + (now.getMonth() + 1) + "-" + (now.getDate() + index);
+      s = index == 0 ? item.date : s;
     });
     this.setData({
       dates: d,
+      ["selected.date"]: s,
       title: options.title,
       price: options.price
     })
