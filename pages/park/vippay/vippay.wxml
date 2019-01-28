@@ -1,6 +1,6 @@
 
 <view>
-  <image src='../../../image/vipbg.png' style='height: 150px;'></image>
+  <image src='../../../image/vipbg.png' style='height: 130px;'></image>
 </view>
 <view>
   <view class='viewcss'>停车场
@@ -18,7 +18,7 @@
 </view>
 <view style='padding-top: 10px;'>
   <view class='viewcss'>停车费用
-    <text bindtap=''>vip收费标准</text>
+    <text style='color: blue;' bindtap=''>(vip收费标准?)</text>
     <view class='viewcss2' style='color: rgb(255,166,0);'>￥30</view>
   </view>
   <view class='viewcss'>可用1500积分抵用1.5元
@@ -28,7 +28,7 @@
 <view>
   <button class='btncss'>缴费离场18.5元</button>
 </view>
-<view class='viewcss3'>会员付款，<text bindtap=''>更换</text></view>
+<view class='viewcss3'>会员付款，<text style='color: blue;' bindtap=''>更换</text></view>
 <view>
   <button class='btncss2'>继续停放</button>
 </view>

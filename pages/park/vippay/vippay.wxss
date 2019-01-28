@@ -1,5 +1,6 @@
 page {
   background: #F6F6F6;
+  font-size: 13px;
 }
 
 .viewcss {
@@ -38,6 +39,7 @@ height:36rpx !important;
   margin: 30px 10px 0 10px;
   color: white;
   background-color: rgb(255, 166, 0);
+  font-size: 13px;
 }
 
 .viewcss3 {
@@ -45,8 +47,9 @@ height:36rpx !important;
 }
 
 .btncss2 {
-  margin: 20px 10px 30px 10px;
+  margin: 10px 10px 30px 10px;
   background: white;
   color: rgb(255, 166, 0);
   border: 1px solid rgb(255, 166, 0);
+  font-size: 13px;
 }
