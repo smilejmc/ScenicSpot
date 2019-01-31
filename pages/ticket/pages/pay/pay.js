@@ -134,7 +134,9 @@ Page({
     var now = new Date();
     var s = "";
     d.forEach(function(item,index){
-      item.date = "" + (now.getMonth() + 1) + "-" + (now.getDate() + index);
+      let time = new Date();
+      time.setDate(now.getDate() + index);
+      item.date = "" + (time.getMonth() + 1) + "-" + time.getDate();
       s = index == 0 ? item.date : s;
     });
     this.setData({

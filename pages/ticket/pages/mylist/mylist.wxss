@@ -1,0 +1,53 @@
+/* pages/ticket/pages/mylist/mylist.wxss */
+page {
+  background: rgb(255, 166, 0);
+}
+
+.park-img {
+  height: 60px;
+  width: 60px;
+  padding-top: -30px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: rgb(148, 28, 28);
+  border-radius: 30px;
+  border: 1px solid #EEE;
+}
+
+.ticket-item {
+  background: #FFF; 
+  margin: 70px 10px; 
+  padding: 40px 15px 5px 15px; 
+  text-align: center; 
+  position:relative;
+  border-radius: 5px;
+}
+
+.park-name {
+  font-size:12px; 
+  color: #999;
+}
+
+.ticket-name {
+  line-height: 50px; 
+  font-weight: 500; 
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 0 30px; 
+  background: rgb(255,166,0); 
+  color: #FFF; 
+}
+
+.valid {
+  margin: 10px;
+}
+
+.valid text {
+  padding: 10px 10px 0 10px; 
+  font-size: 12px; 
+  color: #555;
+}

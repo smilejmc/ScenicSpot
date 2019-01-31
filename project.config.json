@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 6,
 			"list": [
 				{
 					"id": 0,
@@ -77,6 +77,12 @@
 					"pathName": "pages/park/pay/pay",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "mylisy",
+					"pathName": "pages/ticket/pages/mylist/mylist",
+					"query": ""
 				}
 			]
 		}

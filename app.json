@@ -10,7 +10,8 @@
     "pages/park/select/select",
     "pages/park/vippay/vippay",
     "pages/park/pay",
-    "pages/park/pay/pay"
+    "pages/park/pay/pay",
+    "pages/ticket/pages/mylist/mylist"
   ],
   "window": {
     "backgroundTextStyle": "light",
