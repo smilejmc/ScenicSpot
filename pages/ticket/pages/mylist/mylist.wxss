@@ -31,9 +31,20 @@ page {
 }
 
 .ticket-name {
-  line-height: 50px; 
   font-weight: 500; 
   margin-bottom: 20px;
+  line-height: 36px; 
+  width: 150px;
+  margin: auto;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+
+.over-elli {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .btn {

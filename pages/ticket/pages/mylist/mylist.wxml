@@ -5,8 +5,8 @@
     <view class='ticket-item' style='{{index==0 ? "margin-top: 35px;" : ""}}'>
       <image class='park-img' src='{{item.src}}'></image>
       <view class='park-name'>{{item.garden}}</view>
-      <view class='ticket-name'>{{item.name}}</view>
-      <navigator url="/pages/ticket/pages/success/success" hover-class="none"><button class='btn' size='mini'>立即使用</button></navigator>
+      <view class='ticket-name over-elli'>{{item.name}}</view>
+      <navigator url="/pages/ticket/pages/ticket/ticket" hover-class="none"><button class='btn' size='mini'>立即使用</button></navigator>
       <view class='valid'>
         <text decode="{{true}}">可用时间：{{item.dateinfo}}</text>
       </view>

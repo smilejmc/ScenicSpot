@@ -1,0 +1,15 @@
+<!--pages/ticket/pages/ticket/ticket.wxml-->
+<view class='wrap'>
+  <view class='top-wrap'>
+    <navigator style='margin: 10px; color: rgb(255,166,0); text-align: left;'>取消</navigator>
+    <view class='park-name'>荷兰花卉乐园</view>
+    <view class='ticket-name'>自选园区（四季花卉）</view>
+    <view class='dot left' style=''></view>
+    <view class='dot right' style=''></view>
+  </view>
+  <view class='center-wrap'> 
+    <image src='../../resources/image/WXAcode.PNG' style='width: 140px; height: 150px;'></image>
+    <view style='line-height: 30px;'>5131 4897 8465 8948</view>
+    <view class='park-name'>在闸机口扫描即可进入</view>
+  </view>
+</view>

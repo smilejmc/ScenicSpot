@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 6,
+			"current": 7,
 			"list": [
 				{
 					"id": 0,
@@ -83,6 +83,11 @@
 					"name": "mylisy",
 					"pathName": "pages/ticket/pages/mylist/mylist",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "ticket",
+					"pathName": "pages/ticket/pages/ticket/ticket"
 				}
 			]
 		}

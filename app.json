@@ -11,7 +11,8 @@
     "pages/park/vippay/vippay",
     "pages/park/pay",
     "pages/park/pay/pay",
-    "pages/ticket/pages/mylist/mylist"
+    "pages/ticket/pages/mylist/mylist",
+    "pages/ticket/pages/ticket/ticket"
   ],
   "window": {
     "backgroundTextStyle": "light",
