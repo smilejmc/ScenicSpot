@@ -47,12 +47,6 @@
 				},
 				{
 					"id": -1,
-					"name": "vip",
-					"pathName": "pages/vip/vipCenter",
-					"query": ""
-				},
-				{
-					"id": -1,
 					"name": "success",
 					"pathName": "pages/ticket/pages/success/success",
 					"query": ""
@@ -87,7 +81,14 @@
 				{
 					"id": -1,
 					"name": "ticket",
-					"pathName": "pages/ticket/pages/ticket/ticket"
+					"pathName": "pages/ticket/pages/ticket/ticket",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "success",
+					"pathName": "pages/vip/vipCenter/vipCenter",
+					"query": ""
 				}
 			]
 		}
