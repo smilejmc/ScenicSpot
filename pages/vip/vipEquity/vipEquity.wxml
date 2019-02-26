@@ -1,0 +1,13 @@
+<!--pages/vip/vipEquity/vipEquity.wxml-->
+<view>
+  <image src='../../../image/equity.png' style=" height: 150px;"></image>
+</view>
+
+<view style='margin-top:20px;margin-left:5px;'>免费停车</view>
+<view style='margin-top:5px;margin-left:25px;font-size:14px;'><text>使用“停车缴费”功能，即享免费停车3小时(具体优惠方案以商圈运营管理方公告为准)</text></view>
+
+<view style='margin-top:30px;margin-left:5px;'>积分获取</view>
+<view style='margin-top:5px;margin-left:25px;font-size:14px;'><text>电子会员卡可实现麟合会员在样约商户处消费所获同的识分。绑定大情通实体卡后，使用大信通卡余额支付的，在餐饮类零售类商产处何消费10元可获得1个大偶迷职分(不足10元部分不计积分);在百贷类，珠宝类商户处每消费50元可获明1个大信酒积分(不足50元部分不计积分).使用微信支付的，每消费50元可获图1个大信通积分(不足50元部分不计积分)
+</text></view>
+
+<view style='margin-top:25px;margin-left:5px;'>幸运转盘</view>

@@ -3,6 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/vip/vipCenter/vipCenter",
+    "pages/vip/vipEquity/vipEquity",
+    "pages/vip/shopDiscount/shopDiscount",
     "pages/ticket/pages/list/list",
     "pages/ticket/pages/pay/pay",
     "pages/ticket/pages/success/success",

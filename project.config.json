@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 9,
 			"list": [
 				{
 					"id": 0,
@@ -85,9 +85,21 @@
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "success",
+					"id": 7,
+					"name": "vip/vipCenter",
 					"pathName": "pages/vip/vipCenter/vipCenter",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "vip/vipEquity",
+					"pathName": "pages/vip/vipEquity/vipEquity",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "vip/shopDiscount",
+					"pathName": "pages/vip/shopDiscount/shopDiscount",
 					"query": ""
 				}
 			]

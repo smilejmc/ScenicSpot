@@ -1,3 +1,6 @@
 {
- "navigationBarTitleText": "会员中心"
+ "backgroundTextStyle": "light",
+"navigationBarBackgroundColor": "#000",
+"navigationBarTitleText": "会员中心",
+"navigationBarTextStyle": "white"
 }
