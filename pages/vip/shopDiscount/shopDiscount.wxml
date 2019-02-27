@@ -1,2 +1,37 @@
 <!--pages/vip/shopDiscount/shopDiscount.wxml-->
-<text>pages/vip/shopDiscount/shopDiscount.wxml</text>
+
+<view class='input'>
+  <text class='text'>消费金额</text>
+   <input class="content-input" auto-focus placeholder="请输入消费金额" type="text"/>
+</view>
+
+<view class='box'>
+<view class='discount'>
+  <text style='margin-right:200px;'>使用优惠卷</text>
+</view>
+
+<view class='img'>
+<image src='../../../image/right.png' style='width:20px;height:20px;margin-top:-50px;'></image>
+</view>
+
+<view class='integral'>
+  <text style='margin-right:190px;'>可用积分抵扣</text>
+</view>
+
+<view class='img1'>
+<image src='../../../image/right.png' style='width:20px;height:20px;margin-top:-50px;'></image>
+</view>
+</view>
+
+<view class='btn'>
+  <button style='background: #FF9900;color: white;'>确认支付</button>
+</view>
+
+<view class='text1'>
+  <text>余额支付，</text> 
+  <view class='change'>更换</view>
+</view>
+
+
+
+
