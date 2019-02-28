@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 10,
 			"list": [
 				{
 					"id": 0,
@@ -100,6 +100,12 @@
 					"id": -1,
 					"name": "vip/shopDiscount",
 					"pathName": "pages/vip/shopDiscount/shopDiscount",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "vip/parkPayment",
+					"pathName": "pages/vip/parkPayment/parkPayment",
 					"query": ""
 				}
 			]

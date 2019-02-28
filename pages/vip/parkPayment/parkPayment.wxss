@@ -1,0 +1,128 @@
+/* pages/vip/parkPayment/parkPayment.wxss */
+
+page {
+  background: #F6F6F6;
+}
+
+.box{
+  position: relative;
+  top:0px;
+  left:0px;
+}
+
+.parking{
+  height: 30px;
+  background: white;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text1{
+  position: absolute;
+  left: 15px;
+}
+.text2{
+  position: absolute;
+  right: 15px;
+}
+
+.intime{
+  height: 30px;
+  background: white;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parktime{
+  height: 30px;
+  background: white;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.freetime{
+  height: 30px;
+  background: white;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parkpay{
+  height: 30px;
+  background: white;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount{
+  height: 30px;
+  background: white;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text3{
+  position: absolute;
+  right: 30px;
+}
+.img{
+  position: absolute;
+  top: 166px;
+  left: 295px;
+}
+
+.integral{
+  height: 30px;
+  background: white;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wx-switch-input{width:42px !important;height:20px !important;}
+.wx-switch-input::before{width:41px !important;height: 20px !important;}
+.wx-switch-input::after{width: 18px !important;height: 18px !important;}
+
+.btn{
+  margin-top: 10px;
+}
+
+.text4{
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  left: -10px;
+}
+.change{
+  color: #0000CD;
+  position: absolute;
+  left: 200px;
+}
+
+.btn2{
+  margin-top: 6px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}

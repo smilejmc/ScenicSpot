@@ -1,0 +1,59 @@
+<!--pages/vip/parkPayment/parkPayment.wxml-->
+
+<view>
+  <image src='../../../image/park.png' style=" height: 130px;"></image>
+</view>
+
+<view class='box'>
+  <view class='parking'>
+    <text class='text1'>停车场</text>
+    <text class='text2'>环球花世界停车场</text>
+  </view>
+
+  
+    <view class='intime'>
+      <text class='text1'>进入时间</text>
+      <text class='text2'>2016-10-14 19:38</text>
+    </view>
+    
+    <view class='parktime'>
+      <text class='text1'>停车时长</text>
+      <text class='text2'>3小时</text>
+    </view>
+    
+    <view class='freetime'>
+      <text class='text1'>免费时长</text>
+      <text class='text2'>3小时</text>
+    </view>
+    
+    <view class='parkpay'>
+      <text class='text1'>停车费用</text>
+      <text class='text2' style='color: red'>￥30</text>
+    </view>
+    
+    <view class='discount'>
+      <text class='text1'>使用优惠卷</text>
+      <text class='text3'>-￥10</text>
+      <view class='img'>
+        <image src='../../../image/right.png' style='width:20px;height:20px;'></image>
+      </view>
+    </view>
+    
+    <view class='integral'>
+       <text class='text1'>可用150积分抵1.5元</text>
+       <switch checked bindchange="switchChange" style='margin-left: 260px;'/>
+    </view>
+</view>
+
+<view class='btn'>
+  <button style='background: #FF9900;color: white;'>确认支付</button>
+</view>
+
+<view class='text4'>
+  <text>余额支付，</text> 
+  <view class='change'>更换</view>
+</view>
+
+<view class='btn2'>
+  <button style='background: #F4F4F4;color: orange;'>继续停放</button>
+</view>
